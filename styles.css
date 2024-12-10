@@ -55,8 +55,33 @@ a{
     padding: 20px;
     background: var(--black-gradient);
     color: var(--primarycolor);
-    width: 100vh;
+    width: 100%;
+    height: 100vh;
     margin-bottom: 20px;
+}
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.projects-1{
+    display: flex;
+    gap: 10px;
+    gap: 10px;
+    width:  70%;
+    justify-content: space-between;
+}
+.projret-title{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    gap: 10px;
+    width:  40%;
+    justify-content: space-between; */
+}
+#p-img{
+    width: 50%;
+    margin-left: 20px;
 }
 
 
