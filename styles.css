@@ -12,6 +12,7 @@
     --bgcolor: #622635;
     --blue-hover: #6971a686;
     --project-bg:#44567c;
+    --footer-bg:#303942;
     --black-gradient: linear-gradient(to right, #282c33, #1f1e21);
 }
 
@@ -82,6 +83,7 @@ a{
 .projects{
     background: var(--project-bg);
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -94,21 +96,24 @@ a{
 }
 .projects-1{
     display: flex;
+    width: 32%;
     gap: 10px;
-    gap: 10px;
-    width:  70%;
     justify-content: space-between;
 }
 .projret-title{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap;
-    gap: 10px;
-    width:  40%;
-    justify-content: space-between; */
 }
 #p-img{
-    width: 50%;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.bttn{
+    padding: 12px 18px;
+    background: var(--footer-bg);
+    color: var(--primarycolor);
+    width: 10%;
     margin-left: 20px;
 }
 
