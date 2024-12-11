@@ -44,12 +44,14 @@ body {
 a{
     color: var(--primarycolor);
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
-    padding: 5px;
+    padding: 20px 10px;
+
 }
-.nav-child:hover{
+a:hover{
     background-color: var(--blue-hover);
+    padding: 20px 10px;
 }
 
 /* Welcome section styling */
